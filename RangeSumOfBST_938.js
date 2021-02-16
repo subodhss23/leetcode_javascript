@@ -7,6 +7,10 @@ function TreeNode(val, left, right) {
          this.right = (right===undefined ? null : right)
 }
 
+var rangeSumBST = function(root, low, high){
+    
+}
+
 
 console.log(rangeSumBST([10,5,15,3,7,null,18], 7, 15));
 console.log(rangeSumBST([10,5,15,3,7,13,18,1,null,6], 6, 10))
